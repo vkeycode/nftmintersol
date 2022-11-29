@@ -2,11 +2,10 @@ import { Box, Center, Spacer, Stack } from "@chakra-ui/react";
 import type { NextPage } from "next";
 import Head from "next/head";
 import Disconnected from "../components/Disconnected";
-import NavBar from "../components/Navbar";
 import styles from "../styles/Home.module.css";
 import { useWallet } from "@solana/wallet-adapter-react";
 import Connected from "../components/Connected";
-
+import NavBar from "../components/Navbar";
 
 const Home: NextPage = () => {
   const { connected } = useWallet();
