@@ -5,7 +5,7 @@ import Disconnected from "../components/Disconnected";
 import styles from "../styles/Home.module.css";
 import { useWallet } from "@solana/wallet-adapter-react";
 import Connected from "../components/Connected";
-import NavBar from "../components/Navbar";
+import NavBar from "../components/NavBar";
 
 const Home: NextPage = () => {
   const { connected } = useWallet();
